@@ -1,0 +1,12 @@
+import random
+
+# Lista de versículos (você pode aumentar!)
+versiculos = [
+    "O Senhor é o meu pastor, nada me faltará. (Salmo 23:1)",
+    "Tudo posso naquele que me fortalece. (Filipenses 4:13)",
+    "Entrega o teu caminho ao Senhor; confia nele, e ele o fará. (Salmo 37:5)",
+    "Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito. (João 3:16)"
+]
+
+print("🌿 Versículo do Dia 🌿")
+print(random.choice(versiculos))
